@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-setter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return an accessor function for setting an element in an indexed array-like object.",
   "license": "Apache-2.0",
   "author": {
