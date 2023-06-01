@@ -34,19 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-setter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-setter/tags). For example,
-
-```javascript
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@v0.0.1-esm/index.mjs';
+var setter = require( '@stdlib/array-base-setter' );
 ```
 
 #### setter( dtype )
@@ -97,15 +108,10 @@ The returned accessor function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@esm/index.mjs';
+```javascript
+var filled = require( '@stdlib/array-filled' );
+var dtype = require( '@stdlib/array-dtype' );
+var setter = require( '@stdlib/array-base-setter' );
 
 var arr = filled( 1.0, 10, 'float64' );
 setter( dtype( arr ) )( arr, 2, 100.0 );
@@ -142,10 +148,6 @@ console.log( arr );
 arr = filled( 9, 10, 'uint8c' );
 setter( dtype( arr ) )( arr, 2, 100 );
 console.log( arr );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -177,7 +179,7 @@ console.log( arr );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -207,8 +209,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-setter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-setter
 
-[test-image]: https://github.com/stdlib-js/array-base-setter/actions/workflows/test.yml/badge.svg?branch=v0.0.1
-[test-url]: https://github.com/stdlib-js/array-base-setter/actions/workflows/test.yml?query=branch:v0.0.1
+[test-image]: https://github.com/stdlib-js/array-base-setter/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-setter/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-setter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-setter?branch=main
@@ -221,7 +223,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -237,7 +239,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-setter/main/LICENSE
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/stdlib/tree/esm
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/stdlib
 
 </section>
 
