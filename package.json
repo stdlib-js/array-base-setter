@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
-    "@stdlib/array-dtype": "^0.0.x",
-    "@stdlib/array-dtypes": "^0.0.x",
-    "@stdlib/array-filled": "^0.0.x",
-    "@stdlib/array-filled-by": "^0.0.x",
-    "@stdlib/array-typed-real-dtypes": "^0.0.x",
-    "@stdlib/assert-is-function": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/random-base-discrete-uniform": "^0.0.x",
+    "@stdlib/array-dtype": "^0.0.6",
+    "@stdlib/array-dtypes": "^0.0.6",
+    "@stdlib/array-filled": "^0.0.6",
+    "@stdlib/array-filled-by": "^0.0.2",
+    "@stdlib/array-typed-real-dtypes": "^0.0.2",
+    "@stdlib/assert-is-function": "^0.0.8",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/math-base-assert-is-nan": "^0.0.8",
+    "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
@@ -79,7 +79,7 @@
     "setter"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
