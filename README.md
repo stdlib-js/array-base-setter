@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-setter/tags). For example,
+
+```javascript
 import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@v0.2.0-esm/index.mjs';
 ```
 
@@ -111,7 +116,7 @@ The returned accessor function accepts the following arguments:
 
 import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@v0.2.0-esm/index.mjs';
+import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@esm/index.mjs';
 
 var arr = filled( 1.0, 10, 'float64' );
 setter( dtype( arr ) )( arr, 2, 100.0 );
