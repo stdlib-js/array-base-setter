@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@deno/mod.js';
+import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@v0.2.3-deno/mod.js';
 ```
 
 #### setter( dtype )
@@ -106,7 +106,7 @@ The returned accessor function accepts the following arguments:
 ```javascript
 import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
-import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@deno/mod.js';
+import setter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-setter@v0.2.3-deno/mod.js';
 
 var arr = filled( 1.0, 10, 'float64' );
 setter( dtype( arr ) )( arr, 2, 100.0 );
