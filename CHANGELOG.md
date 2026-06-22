@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-14)
+## Unreleased (2026-06-22)
+
+<section class="features">
+
+### Features
+
+-   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - add initial `float16` support
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - **feat:** add initial `float16` support _(by Athan Reines)_
 -   [`81e87d4`](https://github.com/stdlib-js/stdlib/commit/81e87d4457c65ba7481c7ab3701d2ee97d50c052) - **bench:** refactor to use string interpolation in `array` [(#11413)](https://github.com/stdlib-js/stdlib/pull/11413) _(by Karan Anand)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 
 </section>
