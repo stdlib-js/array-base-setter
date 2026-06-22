@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a45fc67`](https://github.com/stdlib-js/stdlib/commit/a45fc6763b36e4f137674c8e66c652549b293341) - **test:** update test _(by Athan Reines)_
 -   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - **feat:** add initial `float16` support _(by Athan Reines)_
 -   [`81e87d4`](https://github.com/stdlib-js/stdlib/commit/81e87d4457c65ba7481c7ab3701d2ee97d50c052) - **bench:** refactor to use string interpolation in `array` [(#11413)](https://github.com/stdlib-js/stdlib/pull/11413) _(by Karan Anand)_
 
