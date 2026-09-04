@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`30e3116`](https://github.com/stdlib-js/stdlib/commit/30e31169773fecb73cef596931064d92513d993c) - **chore:** clean-up [(#14969)](https://github.com/stdlib-js/stdlib/pull/14969) _(by Philipp Burckhardt)_
 -   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - **feat:** add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896) _(by Gururaj Gurram, Athan Reines)_
 -   [`a45fc67`](https://github.com/stdlib-js/stdlib/commit/a45fc6763b36e4f137674c8e66c652549b293341) - **test:** update test _(by Athan Reines)_
 -   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - **feat:** add initial `float16` support _(by Athan Reines)_
@@ -38,11 +39,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
